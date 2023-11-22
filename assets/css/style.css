@@ -289,7 +289,9 @@ p {
   left: 0;
   width: 100%;
   background-color: #fff;
-  z-index: 9; }
+  z-index: 9; 
+  box-shadow: 0 0 10px #00000076;
+}
   .header-area.sticky {
     position: fixed;
     top: 0;
@@ -309,7 +311,10 @@ p {
   .header-area .navbar {
     padding: 0; }
     .header-area .navbar .navbar-brand {
-      padding-bottom: 10px; }
+      padding-bottom: 10px; 
+      background-color: #fe7865;
+      padding-inline: 10px;
+    }
     .header-area .navbar .navbar-toggler .bar-icon {
       width: 30px;
       height: 2px;
@@ -1192,6 +1197,10 @@ p.form-message.error {
       background-color: #fe7865;
       color: #fff; }
 
+      .footer-logo img {
+        background: #fe7865;
+    padding: 10px;
+      }
 .f-title {
   font-size: 20px;
   padding-bottom: 5px; }
@@ -1401,4 +1410,9 @@ p.form-message.error {
 
 #faq {
   margin-block: 150px;
+}
+
+
+#home {
+  background-color: #fffaf6;
 }
