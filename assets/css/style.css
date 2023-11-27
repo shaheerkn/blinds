@@ -856,7 +856,15 @@ p {
 .single-showcase {
   margin-right: 50px;
   margin-bottom: 45px;
-  position: relative; }
+  position: relative; 
+  height: 726px;
+}
+
+.single-showcase  img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
   @media (max-width: 767px) {
     .single-showcase {
       margin: 0; } }
